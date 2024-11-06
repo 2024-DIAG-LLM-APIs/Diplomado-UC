@@ -1,0 +1,20 @@
+meta {
+  name: Entrar a Grupo
+  type: http
+  seq: 4
+}
+
+post {
+  url: https://g7lj7o7oc5.execute-api.us-east-1.amazonaws.com/prod/groups/01JBZ8ZMH4XCYMJ2WFXSQCPY4H/join
+  body: json
+  auth: none
+}
+
+headers {
+  accept: application/json
+  Content-Type: application/json
+}
+
+body:json {
+  { "name": "Grupo 122", "githubUsername": "tomvalen" }
+}
